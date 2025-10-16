@@ -7,8 +7,6 @@ The task is a multiclass classification problem, with the goal of identifying th
 
 ## Summary of Insights
 
-### Data Understanding & Insights
-
 A thorough exploratory data analysis revealed several key trends and medically consistent patterns across demographic and health-related variables:
 
 #### General Population Trends
@@ -58,8 +56,12 @@ The confusion matrices for both models are shown below:
 
 Both models perform similarly. GB slightly outperforms SVM in recall and F1, making it the preferred model for balanced multiclass prediction.
 
+**Hypertension** is the most common misclassified condition, likely due to dataset imbalance and overlapping features with other conditions (general prevalence makes it easier to confuse with similar profiles).
+
 
 ## Recommendations & Next Steps
+
+- Class Balancing: Apply oversampling/undersampling or synthetic sampling (e.g SMOTE) to underrepresented/overrepresented conditions to reduce misclassification bias and improve predictive accuracy across all classes.
 
 - Feature Engineering: Introduce interaction terms (e.g., BMI × Age) or domain-informed derived features to capture more nuanced health patterns, potentially improving model discriminative power.
 

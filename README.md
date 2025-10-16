@@ -5,7 +5,7 @@
 This project aims to predict an individual’s health condition based on demographic, behavioral, and physiological factors using the Healthcare Risk Factors Dataset (a mix of WHO-inspired and synthetic data available on Kaggle).
 The task is a multiclass classification problem, with the goal of identifying the likely health condition of each individual (e.g., diabetes, obesity, asthma, hypertension, cancer, etc.).
 
-The project applies a full machine learning pipeline, from exploratory data analysis and preprocessing to model training, fine-tuning, and evaluation — using Python’s data science stack.
+The project applies a full machine learning pipeline, from exploratory data analysis and preprocessing to model training, fine-tuning, and evaluation using Python’s data science stack.
 
 ## Summary of Insights
 
